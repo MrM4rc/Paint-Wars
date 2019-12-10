@@ -1,0 +1,23 @@
+*{
+	margin: 0;
+}
+
+canvas {
+	margin-top: 2px;
+	margin-left: 2px;
+}
+
+div#time{
+	margin-top: 1px;
+	margin-left: 2px;
+	width: 100px;
+	height: 10px;
+	border: solid red 1px;
+}
+
+div#progress{
+	background-color: blue;
+	width: 100%;
+	height: 100%;
+}
+
