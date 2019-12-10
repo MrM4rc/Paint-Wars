@@ -7,11 +7,12 @@ var win
 function criar_janela(){
 
 	win = new BrowserWindow({
-	width: 330,
+	width: 400,
 	height: 400,
 	resizable: false,
 	webPreferences: {
-		nodeIntegration: true
+		nodeIntegration: true,
+		zoomFactor: 3.0,
 	}
 	})
 
